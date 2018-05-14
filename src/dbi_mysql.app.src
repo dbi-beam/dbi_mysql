@@ -1,0 +1,17 @@
+{application, dbi_mysql, [
+    {description, "DataBase Interface for Erlang using MySQL"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        poolboy,
+        p1_mysql
+    ]},
+    {env, []},
+    {maintainers, ["Manuel Rubio"]},
+    {licenses, ["LGPL 2.1"]},
+    {links, [
+        {"Github", "https://github.com/dbi-beam/dbi_sqlite"}
+    ]}
+]}.
